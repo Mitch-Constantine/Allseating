@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:fillViewport="true"
+    android:fadeScrollbars="false"
+    android:scrollbars="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Platform"
+            android:textStyle="bold"
+            android:textSize="14sp" />
+        <RadioGroup
+            android:id="@+id/filter_platform"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:orientation="vertical">
+            <RadioButton android:id="@+id/platform_all" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="All" />
+            <RadioButton android:id="@+id/platform_pc" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="PC" />
+            <RadioButton android:id="@+id/platform_ps5" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="PS5" />
+            <RadioButton android:id="@+id/platform_ps4" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="PS4" />
+            <RadioButton android:id="@+id/platform_xbox_series" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="XBOX_SERIES" />
+            <RadioButton android:id="@+id/platform_xbox_one" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="XBOX_ONE" />
+            <RadioButton android:id="@+id/platform_switch" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="SWITCH" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Status"
+            android:textStyle="bold"
+            android:textSize="14sp" />
+        <RadioGroup
+            android:id="@+id/filter_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:orientation="vertical">
+            <RadioButton android:id="@+id/status_all" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="All" />
+            <RadioButton android:id="@+id/status_upcoming" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Upcoming" />
+            <RadioButton android:id="@+id/status_active" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Active" />
+            <RadioButton android:id="@+id/status_discontinued" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Discontinued" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Sort by"
+            android:textStyle="bold"
+            android:textSize="14sp" />
+        <RadioGroup
+            android:id="@+id/filter_sort"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:orientation="vertical">
+            <RadioButton android:id="@+id/sort_title_asc" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Title A–Z" />
+            <RadioButton android:id="@+id/sort_title_desc" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Title Z–A" />
+            <RadioButton android:id="@+id/sort_price_asc" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Price low–high" />
+            <RadioButton android:id="@+id/sort_price_desc" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Price high–low" />
+            <RadioButton android:id="@+id/sort_release_desc" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Release date newest" />
+            <RadioButton android:id="@+id/sort_release_asc" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Release date oldest" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Scroll down for Sort and OK."
+            android:textSize="12sp"
+            android:textColor="?android:attr/textColorSecondary" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:orientation="horizontal"
+            android:gravity="end">
+            <Button
+                android:id="@+id/filter_clear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Clear" />
+            <Button
+                android:id="@+id/filter_apply"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="OK" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

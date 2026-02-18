@@ -1,0 +1,905 @@
+{
+  "version": 1,
+  "games": [
+    {
+      "barcode": "8800000000001",
+      "title": "Emerald Paradox 1",
+      "description": "Emerald Paradox 1 is a survival game on PS5. Status: Active. A focused campaign with optional challenges and collectibles.",
+      "platform": "PS5",
+      "releaseDate": "2023-09-28",
+      "status": "Active",
+      "price": 49.99
+    },
+    {
+      "barcode": "8800000000002",
+      "title": "Midnight Protocol 2",
+      "description": "Midnight Protocol 2 is a puzzle-platformer on SWITCH. Status: Active. Short sessions, deep mastery, and a surprising amount of replayability.",
+      "platform": "SWITCH",
+      "releaseDate": "2023-02-26",
+      "status": "Active",
+      "price": 69.99
+    },
+    {
+      "barcode": "8800000000003",
+      "title": "Infernal Outpost 3",
+      "description": "Infernal Outpost 3 is a city builder on XBOX_ONE. Status: Discontinued. A focused campaign with optional challenges and collectibles.",
+      "platform": "XBOX_ONE",
+      "releaseDate": "2016-07-07",
+      "status": "Discontinued",
+      "price": 9.99
+    },
+    {
+      "barcode": "8800000000004",
+      "title": "Quantum Harbor 4",
+      "description": "Quantum Harbor 4 is a tactics on PS5. Status: Upcoming. Explore a dense world of hidden systems and meaningful choices.",
+      "platform": "PS5",
+      "releaseDate": "2027-07-05",
+      "status": "Upcoming",
+      "price": 59.99
+    },
+    {
+      "barcode": "8800000000005",
+      "title": "Feral Talisman 5",
+      "description": "Feral Talisman 5 is a tactics on PS5. Status: Active. A focused campaign with optional challenges and collectibles.",
+      "platform": "PS5",
+      "releaseDate": "2019-06-09",
+      "status": "Active",
+      "price": 49.99
+    },
+    {
+      "barcode": "8800000000006",
+      "title": "Midnight Harbor 6",
+      "description": "Midnight Harbor 6 is a racing game on XBOX_ONE. Status: Active. Explore a dense world of hidden systems and meaningful choices.",
+      "platform": "XBOX_ONE",
+      "releaseDate": "2023-04-22",
+      "status": "Active",
+      "price": 69.99
+    },
+    {
+      "barcode": "8800000000007",
+      "title": "Ancient Covenant 7",
+      "description": "Ancient Covenant 7 is a sports title on SWITCH. Status: Upcoming. Designed for clarity: tight controls, readable UI, and fast feedback.",
+      "platform": "SWITCH",
+      "releaseDate": "2026-11-15",
+      "status": "Upcoming",
+      "price": 59.99
+    },
+    {
+      "barcode": "8800000000008",
+      "title": "Spectral Odyssey 8",
+      "description": "Spectral Odyssey 8 is a action RPG on PS4. Status: Active. Designed for clarity: tight controls, readable UI, and fast feedback.",
+      "platform": "PS4",
+      "releaseDate": "2021-01-13",
+      "status": "Active",
+      "price": 59.99
+    },
+    {
+      "barcode": "8800000000009",
+      "title": "Arctic Labyrinth 9",
+      "description": "Arctic Labyrinth 9 is a strategy game on PS5. Status: Upcoming. Strong pacing, clean mechanics, and a satisfying progression loop.",
+      "platform": "PS5",
+      "releaseDate": "2026-12-17",
+      "status": "Upcoming",
+      "price": 69.99
+    },
+    {
+      "barcode": "8800000000010",
+      "title": "Obsidian Odyssey 10",
+      "description": "Obsidian Odyssey 10 is a sports title on PS5. Status: Active. Strong pacing, clean mechanics, and a satisfying progression loop.",
+      "platform": "PS5",
+      "releaseDate": "2020-01-28",
+      "status": "Active",
+      "price": 19.99
+    },
+    {
+      "barcode": "8800000000011",
+      "title": "Radiant Eclipse 11",
+      "description": "Radiant Eclipse 11 is a tactics on XBOX_ONE. Status: Active. Designed for clarity: tight controls, readable UI, and fast feedback.",
+      "platform": "XBOX_ONE",
+      "releaseDate": "2025-11-27",
+      "status": "Active",
+      "price": 39.99
+    },
+    {
+      "barcode": "8800000000012",
+      "title": "Silent Sanctum 12",
+      "description": "Silent Sanctum 12 is a tactics on PS5. Status: Upcoming. A focused campaign with optional challenges and collectibles.",
+      "platform": "PS5",
+      "releaseDate": "2026-05-06",
+      "status": "Upcoming",
+      "price": 59.99
+    },
+    {
+      "barcode": "8800000000013",
+      "title": "Quantum Protocol 13",
+      "description": "Quantum Protocol 13 is a stealth game on XBOX_ONE. Status: Active. Strong pacing, clean mechanics, and a satisfying progression loop.",
+      "platform": "XBOX_ONE",
+      "releaseDate": "2018-09-22",
+      "status": "Active",
+      "price": 29.99
+    },
+    {
+      "barcode": "8800000000014",
+      "title": "Arctic Catalyst 14",
+      "description": "Arctic Catalyst 14 is a simulation on PS4. Status: Active. Strong pacing, clean mechanics, and a satisfying progression loop.",
+      "platform": "PS4",
+      "releaseDate": "2021-05-18",
+      "status": "Active",
+      "price": 69.99
+    },
+    {
+      "barcode": "8800000000015",
+      "title": "Lunar Arcade 15",
+      "description": "Lunar Arcade 15 is a survival game on SWITCH. Status: Active. Designed for clarity: tight controls, readable UI, and fast feedback.",
+      "platform": "SWITCH",
+      "releaseDate": "2021-08-25",
+      "status": "Active",
+      "price": 49.99
+    },
+    {
+      "barcode": "8800000000016",
+      "title": "Midnight Labyrinth 16",
+      "description": "Midnight Labyrinth 16 is a simulation on XBOX_ONE. Status: Active. Explore a dense world of hidden systems and meaningful choices.",
+      "platform": "XBOX_ONE",
+      "releaseDate": "2023-05-06",
+      "status": "Active",
+      "price": 39.99
+    },
+    {
+      "barcode": "8800000000017",
+      "title": "Emerald Covenant 17",
+      "description": "Emerald Covenant 17 is a city builder on PC. Status: Active. Short sessions, deep mastery, and a surprising amount of replayability.",
+      "platform": "PC",
+      "releaseDate": "2023-07-18",
+      "status": "Active",
+      "price": 19.99
+    },
+    {
+      "barcode": "8800000000018",
+      "title": "Silent Sanctum 18",
+      "description": "Silent Sanctum 18 is a action RPG on PC. Status: Discontinued. Designed for clarity: tight controls, readable UI, and fast feedback.",
+      "platform": "PC",
+      "releaseDate": null,
+      "status": "Discontinued",
+      "price": 0.01
+    },
+    {
+      "barcode": "8800000000019",
+      "title": "Iron Outpost 19",
+      "description": "Iron Outpost 19 is a stealth game on XBOX_ONE. Status: Active. Short sessions, deep mastery, and a surprising amount of replayability.",
+      "platform": "XBOX_ONE",
+      "releaseDate": "2018-08-15",
+      "status": "Active",
+      "price": 59.99
+    },
+    {
+      "barcode": "8800000000020",
+      "title": "Emerald Runestone 20",
+      "description": "Emerald Runestone 20 is a simulation on PS5. Status: Active. A focused campaign with optional challenges and collectibles.",
+      "platform": "PS5",
+      "releaseDate": "2020-10-27",
+      "status": "Active",
+      "price": 49.99
+    },
+    {
+      "barcode": "8800000000021",
+      "title": "Ancient Labyrinth 21",
+      "description": "Ancient Labyrinth 21 is a co-op shooter on PS5. Status: Active. Designed for clarity: tight controls, readable UI, and fast feedback.",
+      "platform": "PS5",
+      "releaseDate": "2018-09-25",
+      "status": "Active",
+      "price": 49.99
+    },
+    {
+      "barcode": "8800000000022",
+      "title": "Midnight Citadel 22",
+      "description": "Midnight Citadel 22 is a action RPG on XBOX_SERIES. Status: Upcoming. A focused campaign with optional challenges and collectibles.",
+      "platform": "XBOX_SERIES",
+      "releaseDate": "2026-05-26",
+      "status": "Upcoming",
+      "price": 79.99
+    },
+    {
+      "barcode": "8800000000023",
+      "title": "Iron Requiem 23",
+      "description": "Iron Requiem 23 is a racing game on PC. Status: Active. A focused campaign with optional challenges and collectibles.",
+      "platform": "PC",
+      "releaseDate": "2023-12-28",
+      "status": "Active",
+      "price": 29.99
+    },
+    {
+      "barcode": "8800000000024",
+      "title": "Feral Outpost 24",
+      "description": "Feral Outpost 24 is a stealth game on XBOX_SERIES. Status: Discontinued. Strong pacing, clean mechanics, and a satisfying progression loop.",
+      "platform": "XBOX_SERIES",
+      "releaseDate": "2024-06-07",
+      "status": "Discontinued",
+      "price": 0.01
+    },
+    {
+      "barcode": "8800000000025",
+      "title": "Infernal Voyager 25",
+      "description": "Infernal Voyager 25 is a puzzle-platformer on PC. Status: Discontinued. A focused campaign with optional challenges and collectibles.",
+      "platform": "PC",
+      "releaseDate": "2020-10-27",
+      "status": "Discontinued",
+      "price": 14.99
+    },
+    {
+      "barcode": "8800000000026",
+      "title": "Lunar Mirage 26",
+      "description": "Lunar Mirage 26 is a puzzle-platformer on XBOX_SERIES. Status: Active. A focused campaign with optional challenges and collectibles.",
+      "platform": "XBOX_SERIES",
+      "releaseDate": "2025-06-19",
+      "status": "Active",
+      "price": 19.99
+    },
+    {
+      "barcode": "8800000000027",
+      "title": "Velvet Drift 27",
+      "description": "Velvet Drift 27 is a rhythm game on XBOX_SERIES. Status: Discontinued. Strong pacing, clean mechanics, and a satisfying progression loop.",
+      "platform": "XBOX_SERIES",
+      "releaseDate": "2010-07-02",
+      "status": "Discontinued",
+      "price": 29.99
+    },
+    {
+      "barcode": "8800000000028",
+      "title": "Solar Protocol 28",
+      "description": "Solar Protocol 28 is a roguelite on SWITCH. Status: Upcoming. Short sessions, deep mastery, and a surprising amount of replayability.",
+      "platform": "SWITCH",
+      "releaseDate": "2026-08-28",
+      "status": "Upcoming",
+      "price": 59.99
+    },
+    {
+      "barcode": "8800000000029",
+      "title": "Infernal Citadel 29",
+      "description": "Infernal Citadel 29 is a action RPG on XBOX_ONE. Status: Discontinued. Strong pacing, clean mechanics, and a satisfying progression loop.",
+      "platform": "XBOX_ONE",
+      "releaseDate": "2024-11-03",
+      "status": "Discontinued",
+      "price": 14.99
+    },
+    {
+      "barcode": "8800000000030",
+      "title": "Arctic Odyssey 30",
+      "description": "Arctic Odyssey 30 is a racing game on XBOX_ONE. Status: Active. Explore a dense world of hidden systems and meaningful choices.",
+      "platform": "XBOX_ONE",
+      "releaseDate": "2025-06-27",
+      "status": "Active",
+      "price": 29.99
+    },
+    {
+      "barcode": "8800000000031",
+      "title": "Azure Frontier 31",
+      "description": "Azure Frontier 31 is a co-op shooter on PC. Status: Upcoming. Explore a dense world of hidden systems and meaningful choices.",
+      "platform": "PC",
+      "releaseDate": "2026-10-13",
+      "status": "Upcoming",
+      "price": 69.99
+    },
+    {
+      "barcode": "8800000000032",
+      "title": "Azure Citadel 32",
+      "description": "Azure Citadel 32 is a tactics on XBOX_ONE. Status: Active. A focused campaign with optional challenges and collectibles.",
+      "platform": "XBOX_ONE",
+      "releaseDate": "2019-03-07",
+      "status": "Active",
+      "price": 69.99
+    },
+    {
+      "barcode": "8800000000033",
+      "title": "Emerald Harbor 33",
+      "description": "Emerald Harbor 33 is a roguelite on XBOX_ONE. Status: Active. Short sessions, deep mastery, and a surprising amount of replayability.",
+      "platform": "XBOX_ONE",
+      "releaseDate": "2022-07-30",
+      "status": "Active",
+      "price": 69.99
+    },
+    {
+      "barcode": "8800000000034",
+      "title": "Radiant Sanctum 34",
+      "description": "Radiant Sanctum 34 is a co-op shooter on SWITCH. Status: Active. Short sessions, deep mastery, and a surprising amount of replayability.",
+      "platform": "SWITCH",
+      "releaseDate": "2023-02-23",
+      "status": "Active",
+      "price": 69.99
+    },
+    {
+      "barcode": "8800000000035",
+      "title": "Shattered Drift 35",
+      "description": "Shattered Drift 35 is a sports title on SWITCH. Status: Active. Explore a dense world of hidden systems and meaningful choices.",
+      "platform": "SWITCH",
+      "releaseDate": "2022-07-30",
+      "status": "Active",
+      "price": 19.99
+    },
+    {
+      "barcode": "8800000000036",
+      "title": "Azure Runestone 36",
+      "description": "Azure Runestone 36 is a tactics on XBOX_SERIES. Status: Active. Strong pacing, clean mechanics, and a satisfying progression loop.",
+      "platform": "XBOX_SERIES",
+      "releaseDate": "2025-01-01",
+      "status": "Active",
+      "price": 29.99
+    },
+    {
+      "barcode": "8800000000037",
+      "title": "Velvet Protocol 37",
+      "description": "Velvet Protocol 37 is a simulation on XBOX_ONE. Status: Discontinued. Designed for clarity: tight controls, readable UI, and fast feedback.",
+      "platform": "XBOX_ONE",
+      "releaseDate": "2024-07-31",
+      "status": "Discontinued",
+      "price": 9.99
+    },
+    {
+      "barcode": "8800000000038",
+      "title": "Midnight Covenant 38",
+      "description": "Midnight Covenant 38 is a roguelite on PS5. Status: Active. Strong pacing, clean mechanics, and a satisfying progression loop.",
+      "platform": "PS5",
+      "releaseDate": "2018-03-27",
+      "status": "Active",
+      "price": 69.99
+    },
+    {
+      "barcode": "8800000000039",
+      "title": "Crimson Covenant 39",
+      "description": "Crimson Covenant 39 is a tactics on XBOX_ONE. Status: Discontinued. Short sessions, deep mastery, and a surprising amount of replayability.",
+      "platform": "XBOX_ONE",
+      "releaseDate": "2011-03-31",
+      "status": "Discontinued",
+      "price": 9.99
+    },
+    {
+      "barcode": "8800000000040",
+      "title": "Ancient Covenant 40",
+      "description": "Ancient Covenant 40 is a roguelite on PC. Status: Upcoming. Designed for clarity: tight controls, readable UI, and fast feedback.",
+      "platform": "PC",
+      "releaseDate": "2026-07-24",
+      "status": "Upcoming",
+      "price": 69.99
+    },
+    {
+      "barcode": "8800000000041",
+      "title": "Radiant Requiem 41",
+      "description": "Radiant Requiem 41 is a survival game on SWITCH. Status: Active. Designed for clarity: tight controls, readable UI, and fast feedback.",
+      "platform": "SWITCH",
+      "releaseDate": "2018-06-01",
+      "status": "Active",
+      "price": 59.99
+    },
+    {
+      "barcode": "8800000000042",
+      "title": "Velvet Citadel 42",
+      "description": "Velvet Citadel 42 is a survival game on XBOX_SERIES. Status: Upcoming. A focused campaign with optional challenges and collectibles.",
+      "platform": "XBOX_SERIES",
+      "releaseDate": "2026-05-20",
+      "status": "Upcoming",
+      "price": 79.99
+    },
+    {
+      "barcode": "8800000000043",
+      "title": "Crimson Paradox 43",
+      "description": "Crimson Paradox 43 is a puzzle-platformer on PC. Status: Active. Designed for clarity: tight controls, readable UI, and fast feedback.",
+      "platform": "PC",
+      "releaseDate": "2017-06-23",
+      "status": "Active",
+      "price": 29.99
+    },
+    {
+      "barcode": "8800000000044",
+      "title": "Midnight Covenant 44",
+      "description": "Midnight Covenant 44 is a co-op shooter on SWITCH. Status: Active. Strong pacing, clean mechanics, and a satisfying progression loop.",
+      "platform": "SWITCH",
+      "releaseDate": "2018-03-18",
+      "status": "Active",
+      "price": 19.99
+    },
+    {
+      "barcode": "8800000000045",
+      "title": "Neon Protocol 45",
+      "description": "Neon Protocol 45 is a strategy game on PC. Status: Upcoming. Designed for clarity: tight controls, readable UI, and fast feedback.",
+      "platform": "PC",
+      "releaseDate": "2026-03-23",
+      "status": "Upcoming",
+      "price": 69.99
+    },
+    {
+      "barcode": "8800000000046",
+      "title": "Quantum Citadel 46",
+      "description": "Quantum Citadel 46 is a story-driven adventure on XBOX_SERIES. Status: Active. Explore a dense world of hidden systems and meaningful choices.",
+      "platform": "XBOX_SERIES",
+      "releaseDate": "2022-09-01",
+      "status": "Active",
+      "price": 39.99
+    },
+    {
+      "barcode": "8800000000047",
+      "title": "Iron Labyrinth 47",
+      "description": "Iron Labyrinth 47 is a sports title on PS5. Status: Active. Strong pacing, clean mechanics, and a satisfying progression loop.",
+      "platform": "PS5",
+      "releaseDate": "2022-02-27",
+      "status": "Active",
+      "price": 49.99
+    },
+    {
+      "barcode": "8800000000048",
+      "title": "Quantum Sanctum 48",
+      "description": "Quantum Sanctum 48 is a puzzle-platformer on XBOX_ONE. Status: Active. Short sessions, deep mastery, and a surprising amount of replayability.",
+      "platform": "XBOX_ONE",
+      "releaseDate": "2016-06-05",
+      "status": "Active",
+      "price": 49.99
+    },
+    {
+      "barcode": "8800000000049",
+      "title": "Feral Paradox 49",
+      "description": "Feral Paradox 49 is a sports title on PC. Status: Upcoming. Short sessions, deep mastery, and a surprising amount of replayability.",
+      "platform": "PC",
+      "releaseDate": "2027-04-12",
+      "status": "Upcoming",
+      "price": 79.99
+    },
+    {
+      "barcode": "8800000000050",
+      "title": "Ancient Mirage 50",
+      "description": "Ancient Mirage 50 is a action RPG on PS5. Status: Active. A focused campaign with optional challenges and collectibles.",
+      "platform": "PS5",
+      "releaseDate": "2016-05-05",
+      "status": "Active",
+      "price": 29.99
+    },
+    {
+      "barcode": "8800000000051",
+      "title": "Midnight Dominion 51",
+      "description": "Midnight Dominion 51 is a simulation on PS5. Status: Discontinued. Explore a dense world of hidden systems and meaningful choices.",
+      "platform": "PS5",
+      "releaseDate": "2021-01-07",
+      "status": "Discontinued",
+      "price": 29.99
+    },
+    {
+      "barcode": "8800000000052",
+      "title": "Golden Paradox 52",
+      "description": "Golden Paradox 52 is a strategy game on PS5. Status: Active. Explore a dense world of hidden systems and meaningful choices.",
+      "platform": "PS5",
+      "releaseDate": "2022-12-31",
+      "status": "Active",
+      "price": 39.99
+    },
+    {
+      "barcode": "8800000000053",
+      "title": "Arctic Mirage 53",
+      "description": "Arctic Mirage 53 is a action RPG on PS4. Status: Upcoming. Explore a dense world of hidden systems and meaningful choices.",
+      "platform": "PS4",
+      "releaseDate": "2027-01-20",
+      "status": "Upcoming",
+      "price": 79.99
+    },
+    {
+      "barcode": "8800000000054",
+      "title": "Emerald Outpost 54",
+      "description": "Emerald Outpost 54 is a tactics on PS5. Status: Active. Strong pacing, clean mechanics, and a satisfying progression loop.",
+      "platform": "PS5",
+      "releaseDate": "2025-09-11",
+      "status": "Active",
+      "price": 49.99
+    },
+    {
+      "barcode": "8800000000055",
+      "title": "Radiant Talisman 55",
+      "description": "Radiant Talisman 55 is a tactics on PS4. Status: Upcoming. A focused campaign with optional challenges and collectibles.",
+      "platform": "PS4",
+      "releaseDate": "2027-07-23",
+      "status": "Upcoming",
+      "price": 69.99
+    },
+    {
+      "barcode": "8800000000056",
+      "title": "Silent Talisman 56",
+      "description": "Silent Talisman 56 is a racing game on PS4. Status: Active. Strong pacing, clean mechanics, and a satisfying progression loop.",
+      "platform": "PS4",
+      "releaseDate": "2026-02-08",
+      "status": "Active",
+      "price": 69.99
+    },
+    {
+      "barcode": "8800000000057",
+      "title": "Lunar Dominion 57",
+      "description": "Lunar Dominion 57 is a tactics on SWITCH. Status: Active. Designed for clarity: tight controls, readable UI, and fast feedback.",
+      "platform": "SWITCH",
+      "releaseDate": "2021-04-15",
+      "status": "Active",
+      "price": 59.99
+    },
+    {
+      "barcode": "8800000000058",
+      "title": "Ancient Arcade 58",
+      "description": "Ancient Arcade 58 is a roguelite on PS4. Status: Active. A focused campaign with optional challenges and collectibles.",
+      "platform": "PS4",
+      "releaseDate": "2020-06-08",
+      "status": "Active",
+      "price": 39.99
+    },
+    {
+      "barcode": "8800000000059",
+      "title": "Shattered Covenant 59",
+      "description": "Shattered Covenant 59 is a simulation on XBOX_SERIES. Status: Upcoming. A focused campaign with optional challenges and collectibles.",
+      "platform": "XBOX_SERIES",
+      "releaseDate": "2026-06-25",
+      "status": "Upcoming",
+      "price": 89.99
+    },
+    {
+      "barcode": "8800000000060",
+      "title": "Feral Catalyst 60",
+      "description": "Feral Catalyst 60 is a roguelite on SWITCH. Status: Active. A focused campaign with optional challenges and collectibles.",
+      "platform": "SWITCH",
+      "releaseDate": "2019-09-28",
+      "status": "Active",
+      "price": 59.99
+    },
+    {
+      "barcode": "8800000000061",
+      "title": "Shattered Arcade 61",
+      "description": "Shattered Arcade 61 is a co-op shooter on PC. Status: Upcoming. Strong pacing, clean mechanics, and a satisfying progression loop.",
+      "platform": "PC",
+      "releaseDate": "2026-09-18",
+      "status": "Upcoming",
+      "price": 79.99
+    },
+    {
+      "barcode": "8800000000062",
+      "title": "Midnight Drift 62",
+      "description": "Midnight Drift 62 is a racing game on XBOX_SERIES. Status: Upcoming. A focused campaign with optional challenges and collectibles.",
+      "platform": "XBOX_SERIES",
+      "releaseDate": "2026-09-21",
+      "status": "Upcoming",
+      "price": 69.99
+    },
+    {
+      "barcode": "8800000000063",
+      "title": "Neon Arcade 63",
+      "description": "Neon Arcade 63 is a survival game on SWITCH. Status: Upcoming. Strong pacing, clean mechanics, and a satisfying progression loop.",
+      "platform": "SWITCH",
+      "releaseDate": "2027-07-27",
+      "status": "Upcoming",
+      "price": 79.99
+    },
+    {
+      "barcode": "8800000000064",
+      "title": "Iron Arcade 64",
+      "description": "Iron Arcade 64 is a sports title on PC. Status: Active. Short sessions, deep mastery, and a surprising amount of replayability.",
+      "platform": "PC",
+      "releaseDate": "2023-08-09",
+      "status": "Active",
+      "price": 29.99
+    },
+    {
+      "barcode": "8800000000065",
+      "title": "Silent Sanctum 65",
+      "description": "Silent Sanctum 65 is a strategy game on PC. Status: Discontinued. Explore a dense world of hidden systems and meaningful choices.",
+      "platform": "PC",
+      "releaseDate": "2012-05-31",
+      "status": "Discontinued",
+      "price": 14.99
+    },
+    {
+      "barcode": "8800000000066",
+      "title": "Emerald Requiem 66",
+      "description": "Emerald Requiem 66 is a stealth game on XBOX_SERIES. Status: Upcoming. A focused campaign with optional challenges and collectibles.",
+      "platform": "XBOX_SERIES",
+      "releaseDate": "2027-03-15",
+      "status": "Upcoming",
+      "price": 69.99
+    },
+    {
+      "barcode": "8800000000067",
+      "title": "Crimson Labyrinth 67",
+      "description": "Crimson Labyrinth 67 is a co-op shooter on PS5. Status: Active. Short sessions, deep mastery, and a surprising amount of replayability.",
+      "platform": "PS5",
+      "releaseDate": "2017-05-24",
+      "status": "Active",
+      "price": 29.99
+    },
+    {
+      "barcode": "8800000000068",
+      "title": "Arctic Drift 68",
+      "description": "Arctic Drift 68 is a racing game on SWITCH. Status: Active. Short sessions, deep mastery, and a surprising amount of replayability.",
+      "platform": "SWITCH",
+      "releaseDate": "2025-07-24",
+      "status": "Active",
+      "price": 19.99
+    },
+    {
+      "barcode": "8800000000069",
+      "title": "Quantum Drift 69",
+      "description": "Quantum Drift 69 is a city builder on XBOX_SERIES. Status: Discontinued. Designed for clarity: tight controls, readable UI, and fast feedback.",
+      "platform": "XBOX_SERIES",
+      "releaseDate": "2013-08-03",
+      "status": "Discontinued",
+      "price": 14.99
+    },
+    {
+      "barcode": "8800000000070",
+      "title": "Arctic Talisman 70",
+      "description": "Arctic Talisman 70 is a puzzle-platformer on XBOX_ONE. Status: Upcoming. A focused campaign with optional challenges and collectibles.",
+      "platform": "XBOX_ONE",
+      "releaseDate": "2027-05-17",
+      "status": "Upcoming",
+      "price": 89.99
+    },
+    {
+      "barcode": "8800000000071",
+      "title": "Iron Outpost 71",
+      "description": "Iron Outpost 71 is a stealth game on PS4. Status: Upcoming. Short sessions, deep mastery, and a surprising amount of replayability.",
+      "platform": "PS4",
+      "releaseDate": "2027-08-02",
+      "status": "Upcoming",
+      "price": 79.99
+    },
+    {
+      "barcode": "8800000000072",
+      "title": "Neon Arcade 72",
+      "description": "Neon Arcade 72 is a story-driven adventure on XBOX_SERIES. Status: Discontinued. Designed for clarity: tight controls, readable UI, and fast feedback.",
+      "platform": "XBOX_SERIES",
+      "releaseDate": null,
+      "status": "Discontinued",
+      "price": 19.99
+    },
+    {
+      "barcode": "8800000000073",
+      "title": "Quantum Protocol 73",
+      "description": "Quantum Protocol 73 is a co-op shooter on PC. Status: Active. Short sessions, deep mastery, and a surprising amount of replayability.",
+      "platform": "PC",
+      "releaseDate": "2023-07-13",
+      "status": "Active",
+      "price": 69.99
+    },
+    {
+      "barcode": "8800000000074",
+      "title": "Neon Talisman 74",
+      "description": "Neon Talisman 74 is a stealth game on PS5. Status: Discontinued. A focused campaign with optional challenges and collectibles.",
+      "platform": "PS5",
+      "releaseDate": "2013-12-14",
+      "status": "Discontinued",
+      "price": 0.01
+    },
+    {
+      "barcode": "8800000000075",
+      "title": "Spectral Mirage 75",
+      "description": "Spectral Mirage 75 is a city builder on PS5. Status: Active. Explore a dense world of hidden systems and meaningful choices.",
+      "platform": "PS5",
+      "releaseDate": "2017-06-28",
+      "status": "Active",
+      "price": 59.99
+    },
+    {
+      "barcode": "8800000000076",
+      "title": "Solar Voyager 76",
+      "description": "Solar Voyager 76 is a sports title on XBOX_SERIES. Status: Discontinued. A focused campaign with optional challenges and collectibles.",
+      "platform": "XBOX_SERIES",
+      "releaseDate": "2019-06-05",
+      "status": "Discontinued",
+      "price": 14.99
+    },
+    {
+      "barcode": "8800000000077",
+      "title": "Infernal Catalyst 77",
+      "description": "Infernal Catalyst 77 is a stealth game on XBOX_ONE. Status: Upcoming. Short sessions, deep mastery, and a surprising amount of replayability.",
+      "platform": "XBOX_ONE",
+      "releaseDate": "2026-09-28",
+      "status": "Upcoming",
+      "price": 79.99
+    },
+    {
+      "barcode": "8800000000078",
+      "title": "Solar Voyager 78",
+      "description": "Solar Voyager 78 is a story-driven adventure on XBOX_SERIES. Status: Active. A focused campaign with optional challenges and collectibles.",
+      "platform": "XBOX_SERIES",
+      "releaseDate": "2021-10-06",
+      "status": "Active",
+      "price": 69.99
+    },
+    {
+      "barcode": "8800000000079",
+      "title": "Midnight Protocol 79",
+      "description": "Midnight Protocol 79 is a action RPG on PS5. Status: Discontinued. A focused campaign with optional challenges and collectibles.",
+      "platform": "PS5",
+      "releaseDate": "2014-02-22",
+      "status": "Discontinued",
+      "price": 19.99
+    },
+    {
+      "barcode": "8800000000080",
+      "title": "Crimson Frontier 80",
+      "description": "Crimson Frontier 80 is a co-op shooter on XBOX_ONE. Status: Active. Short sessions, deep mastery, and a surprising amount of replayability.",
+      "platform": "XBOX_ONE",
+      "releaseDate": "2018-12-01",
+      "status": "Active",
+      "price": 49.99
+    },
+    {
+      "barcode": "8800000000081",
+      "title": "Silent Outpost 81",
+      "description": "Silent Outpost 81 is a story-driven adventure on PS5. Status: Active. Short sessions, deep mastery, and a surprising amount of replayability.",
+      "platform": "PS5",
+      "releaseDate": "2021-11-15",
+      "status": "Active",
+      "price": 49.99
+    },
+    {
+      "barcode": "8800000000082",
+      "title": "Radiant Mirage 82",
+      "description": "Radiant Mirage 82 is a sports title on PS4. Status: Upcoming. A focused campaign with optional challenges and collectibles.",
+      "platform": "PS4",
+      "releaseDate": "2026-11-26",
+      "status": "Upcoming",
+      "price": 79.99
+    },
+    {
+      "barcode": "8800000000083",
+      "title": "Solar Voyager 83",
+      "description": "Solar Voyager 83 is a story-driven adventure on PC. Status: Upcoming. Short sessions, deep mastery, and a surprising amount of replayability.",
+      "platform": "PC",
+      "releaseDate": "2026-04-09",
+      "status": "Upcoming",
+      "price": 59.99
+    },
+    {
+      "barcode": "8800000000084",
+      "title": "Silent Voyager 84",
+      "description": "Silent Voyager 84 is a strategy game on SWITCH. Status: Discontinued. Explore a dense world of hidden systems and meaningful choices.",
+      "platform": "SWITCH",
+      "releaseDate": "2021-08-26",
+      "status": "Discontinued",
+      "price": 19.99
+    },
+    {
+      "barcode": "8800000000085",
+      "title": "Iron Protocol 85",
+      "description": "Iron Protocol 85 is a city builder on PS5. Status: Discontinued. Short sessions, deep mastery, and a surprising amount of replayability.",
+      "platform": "PS5",
+      "releaseDate": "2023-07-23",
+      "status": "Discontinued",
+      "price": 14.99
+    },
+    {
+      "barcode": "8800000000086",
+      "title": "Velvet Dominion 86",
+      "description": "Velvet Dominion 86 is a city builder on SWITCH. Status: Upcoming. Strong pacing, clean mechanics, and a satisfying progression loop.",
+      "platform": "SWITCH",
+      "releaseDate": "2026-08-05",
+      "status": "Upcoming",
+      "price": 59.99
+    },
+    {
+      "barcode": "8800000000087",
+      "title": "Shattered Labyrinth 87",
+      "description": "Shattered Labyrinth 87 is a action RPG on PS5. Status: Active. Designed for clarity: tight controls, readable UI, and fast feedback.",
+      "platform": "PS5",
+      "releaseDate": "2019-08-20",
+      "status": "Active",
+      "price": 59.99
+    },
+    {
+      "barcode": "8800000000088",
+      "title": "Golden Mirage 88",
+      "description": "Golden Mirage 88 is a simulation on SWITCH. Status: Active. Explore a dense world of hidden systems and meaningful choices.",
+      "platform": "SWITCH",
+      "releaseDate": "2018-02-08",
+      "status": "Active",
+      "price": 59.99
+    },
+    {
+      "barcode": "8800000000089",
+      "title": "Iron Labyrinth 89",
+      "description": "Iron Labyrinth 89 is a strategy game on SWITCH. Status: Upcoming. Strong pacing, clean mechanics, and a satisfying progression loop.",
+      "platform": "SWITCH",
+      "releaseDate": "2026-12-20",
+      "status": "Upcoming",
+      "price": 59.99
+    },
+    {
+      "barcode": "8800000000090",
+      "title": "Silent Dominion 90",
+      "description": "Silent Dominion 90 is a co-op shooter on XBOX_ONE. Status: Active. Designed for clarity: tight controls, readable UI, and fast feedback.",
+      "platform": "XBOX_ONE",
+      "releaseDate": "2020-02-24",
+      "status": "Active",
+      "price": 19.99
+    },
+    {
+      "barcode": "8800000000091",
+      "title": "Radiant Voyager 91",
+      "description": "Radiant Voyager 91 is a tactics on XBOX_ONE. Status: Discontinued. A focused campaign with optional challenges and collectibles.",
+      "platform": "XBOX_ONE",
+      "releaseDate": "2015-02-17",
+      "status": "Discontinued",
+      "price": 9.99
+    },
+    {
+      "barcode": "8800000000092",
+      "title": "Midnight Protocol 92",
+      "description": "Midnight Protocol 92 is a puzzle-platformer on SWITCH. Status: Upcoming. Strong pacing, clean mechanics, and a satisfying progression loop.",
+      "platform": "SWITCH",
+      "releaseDate": "2027-05-06",
+      "status": "Upcoming",
+      "price": 79.99
+    },
+    {
+      "barcode": "8800000000093",
+      "title": "Infernal Eclipse 93",
+      "description": "Infernal Eclipse 93 is a co-op shooter on XBOX_ONE. Status: Upcoming. Strong pacing, clean mechanics, and a satisfying progression loop.",
+      "platform": "XBOX_ONE",
+      "releaseDate": "2027-06-06",
+      "status": "Upcoming",
+      "price": 79.99
+    },
+    {
+      "barcode": "8800000000094",
+      "title": "Iron Frontier 94",
+      "description": "Iron Frontier 94 is a stealth game on PS4. Status: Upcoming. Short sessions, deep mastery, and a surprising amount of replayability.",
+      "platform": "PS4",
+      "releaseDate": "2026-11-27",
+      "status": "Upcoming",
+      "price": 89.99
+    },
+    {
+      "barcode": "8800000000095",
+      "title": "Azure Mirage 95",
+      "description": "Azure Mirage 95 is a action RPG on XBOX_ONE. Status: Active. A focused campaign with optional challenges and collectibles.",
+      "platform": "XBOX_ONE",
+      "releaseDate": "2022-05-09",
+      "status": "Active",
+      "price": 39.99
+    },
+    {
+      "barcode": "8800000000096",
+      "title": "Solar Requiem 96",
+      "description": "Solar Requiem 96 is a sports title on PS5. Status: Active. Designed for clarity: tight controls, readable UI, and fast feedback.",
+      "platform": "PS5",
+      "releaseDate": "2022-02-22",
+      "status": "Active",
+      "price": 39.99
+    },
+    {
+      "barcode": "8800000000097",
+      "title": "Azure Outpost 97",
+      "description": "Azure Outpost 97 is a simulation on PS4. Status: Discontinued. Explore a dense world of hidden systems and meaningful choices.",
+      "platform": "PS4",
+      "releaseDate": "2014-07-15",
+      "status": "Discontinued",
+      "price": 4.99
+    },
+    {
+      "barcode": "8800000000098",
+      "title": "Spectral Eclipse 98",
+      "description": "Spectral Eclipse 98 is a rhythm game on SWITCH. Status: Upcoming. A focused campaign with optional challenges and collectibles.",
+      "platform": "SWITCH",
+      "releaseDate": "2026-10-19",
+      "status": "Upcoming",
+      "price": 89.99
+    },
+    {
+      "barcode": "8800000000099",
+      "title": "Crimson Frontier 99",
+      "description": "Crimson Frontier 99 is a simulation on XBOX_SERIES. Status: Upcoming. A focused campaign with optional challenges and collectibles.",
+      "platform": "XBOX_SERIES",
+      "releaseDate": "2026-12-13",
+      "status": "Upcoming",
+      "price": 69.99
+    },
+    {
+      "barcode": "8800000000100",
+      "title": "Emerald Dominion 100",
+      "description": "Emerald Dominion 100 is a story-driven adventure on PS4. Status: Discontinued. A focused campaign with optional challenges and collectibles.",
+      "platform": "PS4",
+      "releaseDate": "2014-03-20",
+      "status": "Discontinued",
+      "price": 29.99
+    }
+  ]
+}

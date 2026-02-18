@@ -1,0 +1,69 @@
+# .NET
+bin/
+obj/
+*.user
+*.userosscache
+*.sln.docstates
+.vs/
+packages/
+*.nupkg
+*.snupkg
+TestResults/
+coverage/
+[Dd]ebug/
+[Rr]elease/
+*.log
+logs/
+*.db
+*.db-shm
+*.db-wal
+
+# NuGet
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Angular / Node
+node_modules/
+dist/
+.angular/
+.sass-cache/
+*.tsbuildinfo
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Android / Gradle
+*.apk
+*.ap_
+*.aab
+*.dex
+*.class
+**/build/
+.gradle/
+local.properties
+.externalNativeBuild/
+.cxx/
+*.iml
+*.hprof
+captures/
+
+# IDE
+.cursor/
+.idea/
+.vscode/
+playwright-report/
+*.suo
+*.ntvs*
+*.njsproj
+*.sw?
+
+# OS
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Environment / secrets (if added later)
+.env
+.env.local
+*.pfx
