@@ -35,7 +35,7 @@ The backend follows a layered structure:
 Key implementation details:
 
 -   EF Core Code-First
--   Local file-based database
+-   SQL Server (LocalDB by default)
 -   Automatic database creation on startup
 -   Migrations applied automatically at runtime
 -   JSON seed data
@@ -84,7 +84,7 @@ Architectural characteristics:
 
 Simply run the API project.
 
--   The local database file will be created automatically.
+-   The database will be created automatically (LocalDB).
 -   Migrations are applied automatically on startup.
 -   Seed data is inserted automatically.
 
@@ -92,9 +92,7 @@ No manual EF migration commands are required.
 
 ### Android
 
-A helper script is included:
-
-`start-android.ps1`
+A helper script is included: `src/start-android.ps1`
 
 This script:
 
@@ -103,11 +101,9 @@ This script:
 
 Note:
 
--   The script does not create an Android emulator.
--   An emulator or physical device must already be available.
+-   The script does not create a new emulator image; at least one AVD (or a physical device) is required. The script can start an existing AVD if none is running.
 
-Alternatively, the Android project can be opened directly in Android
-Studio and run normally.
+Alternatively, open the Android project at `src/android` in Android Studio and run it from there.
 
 ------------------------------------------------------------------------
 
