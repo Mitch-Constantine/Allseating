@@ -4,7 +4,7 @@
 
 This project implements a simple two-screen video game catalogue:
 
-1.  Browse a list of games\
+1.  Browse a list of games
 2.  Edit an existing game entry
 
 The emphasis is on clean structure, separation of concerns, and correct
@@ -13,7 +13,7 @@ use of framework features --- not UI polish.
 This was originally inspired by a web-based exercise. Instead of
 recreating it in a web stack, I rebuilt it as:
 
--   A structured ASP.NET Core backend\
+-   A structured ASP.NET Core backend
 -   A native Android client consuming that API
 
 The goal was to demonstrate cross-platform interpretation of
@@ -27,9 +27,9 @@ requirements and the ability to quickly ramp up in Android.
 
 The backend follows a layered structure:
 
--   **Domain** -- Core entities and business rules\
--   **Application** -- Use-case orchestration\
--   **Infrastructure** -- EF Core implementation\
+-   **Domain** -- Core entities and business rules
+-   **Application** -- Use-case orchestration
+-   **Infrastructure** -- EF Core implementation
 -   **API** -- HTTP endpoints
 
 Key implementation details:
