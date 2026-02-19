@@ -1,73 +1,114 @@
-# Allseating Video Games Catalogue
+# Video Game Catalogue -- Android Client + .NET Backend
 
-## Design Choices
+## Overview
 
-### Business Rules & Optimistic Concurrency
+This project implements a simple two-screen video game catalogue:
 
-The demo is intentionally simple. It uses lightweight business rules,
-including optimistic concurrency control, to show realistic backend
-behavior and support solid unit testing.
+1.  Browse a list of games\
+2.  Edit an existing game entry
 
-This provides non-trivial scenarios beyond basic CRUD and reflects
-patterns commonly used in production systems.
+The emphasis is on clean structure, separation of concerns, and correct
+use of framework features --- not UI polish.
 
-### Data Seeding
+This was originally inspired by a web-based exercise. Instead of
+recreating it in a web stack, I rebuilt it as:
 
-The database is automatically seeded with representative data on
-startup. This allows proper testing of:
+-   A structured ASP.NET Core backend\
+-   A native Android client consuming that API
 
-- Paging
-- Sorting
-- Search
-
-The seed ensures the UI behaves correctly under realistic data volume.
-
-### Testing Strategy
-
-The project includes testing at multiple levels:
-
-- **Backend unit tests** focused on business logic and concurrency scenarios
-- **Android unit tests** for ViewModels and business logic
-- **End-to-end tests** validating critical user flows
-
-The project demonstrates testing across logic, component, and full
-integration levels --- not only isolated mocks.
+The goal was to demonstrate cross-platform interpretation of
+requirements and the ability to quickly ramp up in Android.
 
 ------------------------------------------------------------------------
 
-## How to Run
+# System Structure
 
-From the `src` folder:
+## Backend (ASP.NET Core)
 
-```powershell
-.\start-android.ps1
-```
+The backend follows a layered structure:
 
-This script will:
+-   **Domain** -- Core entities and business rules\
+-   **Application** -- Use-case orchestration\
+-   **Infrastructure** -- EF Core implementation\
+-   **API** -- HTTP endpoints
 
-- Build and start the .NET API (backend)
-- Optionally install and launch the Android app on a connected device or emulator (use `-ApiOnly` to skip the app)
+Key implementation details:
 
-Run without a device to have only the API; run with a device/emulator to use the Android app.
+-   EF Core Code-First
+-   JSON seed data
+-   Proper separation between layers
+-   Concurrency handling
+-   Uniqueness validation (e.g., barcode)
+-   Unit and integration tests
 
-**Backend (Swagger):** http://localhost:5117/swagger (when using the default HTTP profile).
-
-------------------------------------------------------------------------
-
-## Alternative Manual Run
-
-**Backend:**
-
-- Open the API project in Visual Studio or run from `src/api/Allseating.Api`:
-  - `dotnet run --launch-profile http` (or https if configured)
-
-**Android app:**
-
-- Open the `src/android` folder in Android Studio.
-- Ensure the Allseating .NET API is running (e.g. http://localhost:5117).
-- Run the app on an emulator or device.
+Business logic is not embedded directly in controllers.
 
 ------------------------------------------------------------------------
 
-No additional setup is required. The database is created automatically
-using SQL Server LocalDB.
+## Android Application
+
+The Android app consumes the backend API.
+
+### Browse Screen
+
+-   Displays games from the API
+-   Supports sorting and filtering
+-   Navigates to edit screen
+
+### Edit Screen
+
+-   Loads a selected game
+-   Allows modification
+-   Sends updates to backend
+-   Handles validation and API errors
+
+Architectural characteristics:
+
+-   ViewModel layer for state management
+-   Repository abstraction for API access
+-   Dedicated API service layer
+-   No business logic inside UI components
+-   Unit tests for ViewModels
+-   UI tests (Espresso)
+
+------------------------------------------------------------------------
+
+# Why This Approach
+
+I had limited prior Android experience.
+
+To close that gap, I:
+
+-   Studied modern Android architecture patterns
+-   Implemented this project end-to-end
+-   Used AI as a development accelerator while maintaining full
+    understanding of the code
+
+The result is a structured Android client integrated with a properly
+layered backend.
+
+------------------------------------------------------------------------
+
+# What This Demonstrates
+
+-   Ability to reinterpret requirements across platforms
+-   Backend architecture discipline
+-   Proper Android layering and state handling
+-   Testing beyond minimal scaffolding
+-   Rapid ramp-up in a new ecosystem
+
+------------------------------------------------------------------------
+
+# Running the Project
+
+### Backend
+
+-   Open solution
+-   Apply migrations
+-   Run API
+
+### Android
+
+-   Open in Android Studio
+-   Configure base API URL
+-   Run on emulator or device
