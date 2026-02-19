@@ -21,9 +21,9 @@ requirements and the ability to quickly ramp up in Android.
 
 ------------------------------------------------------------------------
 
-# System Structure
+## System Structure
 
-## Backend (ASP.NET Core)
+### Backend (ASP.NET Core)
 
 The backend follows a layered structure:
 
@@ -35,27 +35,32 @@ The backend follows a layered structure:
 Key implementation details:
 
 -   EF Core Code-First
+-   Local file-based database
+-   Automatic database creation on startup
+-   Migrations applied automatically at runtime
 -   JSON seed data
--   Proper separation between layers
 -   Concurrency handling
 -   Uniqueness validation (e.g., barcode)
 -   Unit and integration tests
+
+No manual migration steps are required. Running the API creates and
+migrates the local database automatically.
 
 Business logic is not embedded directly in controllers.
 
 ------------------------------------------------------------------------
 
-## Android Application
+### Android Application
 
 The Android app consumes the backend API.
 
-### Browse Screen
+#### Browse Screen
 
 -   Displays games from the API
 -   Supports sorting and filtering
 -   Navigates to edit screen
 
-### Edit Screen
+#### Edit Screen
 
 -   Loads a selected game
 -   Allows modification
@@ -73,42 +78,43 @@ Architectural characteristics:
 
 ------------------------------------------------------------------------
 
-# Why This Approach
+## Running the Project
 
-I had limited prior Android experience.
+### Backend
 
-To close that gap, I:
+Simply run the API project.
 
--   Studied modern Android architecture patterns
--   Implemented this project end-to-end
--   Used AI as a development accelerator while maintaining full
-    understanding of the code
+-   The local database file will be created automatically.
+-   Migrations are applied automatically on startup.
+-   Seed data is inserted automatically.
 
-The result is a structured Android client integrated with a properly
-layered backend.
+No manual EF migration commands are required.
+
+### Android
+
+A helper script is included:
+
+`start-android.ps1`
+
+This script:
+
+-   Starts the backend
+-   Builds and launches the Android application
+
+Note:
+
+-   The script does not create an Android emulator.
+-   An emulator or physical device must already be available.
+
+Alternatively, the Android project can be opened directly in Android
+Studio and run normally.
 
 ------------------------------------------------------------------------
 
-# What This Demonstrates
+## What This Demonstrates
 
 -   Ability to reinterpret requirements across platforms
 -   Backend architecture discipline
 -   Proper Android layering and state handling
 -   Testing beyond minimal scaffolding
 -   Rapid ramp-up in a new ecosystem
-
-------------------------------------------------------------------------
-
-# Running the Project
-
-### Backend
-
--   Open solution
--   Apply migrations
--   Run API
-
-### Android
-
--   Open in Android Studio
--   Configure base API URL
--   Run on emulator or device
